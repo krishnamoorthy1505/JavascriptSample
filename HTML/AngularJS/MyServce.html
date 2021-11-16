@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+    <div ng-app="MySer" ng-controller="myCtrl">
+        <h1>Hexa Decimal value</h1>
+        {{hex}}
+    </div>
+    <script>
+        var myService=angular.module("MySer",[]);
+        myService.service('myS',function(){
+            this.myFun=function(x){
+                return x.toString(16);
+            }
+        });
+        myService.controller("myCtrl",function($scope,myS){
+            $scope.hex=myS.myFun(255);
+        });
+    </script>
+</body>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+    <div ng-app="muapp">
+        <form name="custom">
+            <input name="validText" ng-model="custom1" required my-directive>
+        </form>
+        <h1>Input valid sttus</h1>{{custom.validText.$valid}}
+    </div>
+     
+    <script>
+        var app=angular.module("muapp",[]);
+        app.directive("myDirective",function(){
+            return{
+                require:"ng-model",
+                link: function(scope,element,attr,myctrl){
+                    function myValidation(value){
+                        if(value.indexOf('e')>-1){
+                            myctrl.$setValidity('charE',true);
+                        }
+                        else{
+                            myctrl.$setValidity('charE',false);
+                        }
+                        return value;
+                    }
+                    myctrl.$parsers.push(myValidation);
+                }
+            };
+        });
+    </script>
+</body>
+</html>

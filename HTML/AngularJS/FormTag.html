@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+    <div ng-app="" >
+        <form>
+           Class : <input type="checkbox" ng-model="check">
+           <input type="radio" ng-model="r1" value="red">Red
+           <input type="radio" ng-model="r1" value="green">Green
+           <input type="radio" ng-model="r1" value="yellow">Yellow
+
+
+        </form>
+        <h1 ng-show="check">show</h1>
+        <div ng-switch="r1">
+            <div ng-switch-when="red">
+                <h6>Red Color</h6>
+            </div>
+            <div ng-switch-when="green">
+                <h6>Green Color</h6>
+            </div>
+            <div ng-switch-when="yellow">
+                <h6>Yellow Color</h6>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        //  var app=angular.module("eveApp",[]);
+        // app.controller("eventController",function($scope) {
+        //     $scope.myFunc=function(myE){
+        //     $scope.x = myE.clientX;
+        //     $scope.y = myE.clientY;
+        //     }
+
+        // });
+    </script>
+</body>

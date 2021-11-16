@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+    <div ng-app="myapp" ng-controller="myctrl">
+        Name :<select ng-model="selectname" ng-options='x for x in names'></select> 
+        name1 <select>
+            <option ng-repeat="x in names" >{{x}}</option>
+        </select>
+      
+    </div>
+    <script>
+        var app=angular.module("myapp",[]);
+        app.controller("myctrl",function($scope){
+            //$scope.firstname="krishnamoorthy";
+            //$scope.price=100;
+            $scope.names=[ 'krishna',  'gopi',  'krishna' ];
+            
+
+        });
+    </script>
+</body>
+</html>

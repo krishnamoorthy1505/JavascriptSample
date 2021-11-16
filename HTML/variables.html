@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <p id="demo">var</p>
+    <p id="demo1">let</p>
+    <p id="demo2">const array</p>
+    <p id="demo3">const Object</p>
+
+
+    <script>
+        a=100;//allowed
+        var a;
+        //b=101;//reference error
+        let b;
+        b=1;//allowed
+        
+        {
+            //var a=20;
+            let b=2;
+        }
+       // Array declaration
+       const myArray=['gopi','krishna','sarvin'];
+        myArray[0]='moorthy';
+        myArray.push('lakshana');
+        const myObj={name:'krishna',age:38};
+        myObj.name='krishnamoorthy';
+        myObj.place='chennai';
+        myObj.contactNo='9791005516';
+
+        document.getElementById("demo1").innerHTML=a;
+        document.getElementById("demo").innerHTML=b;
+        document.getElementById("demo2").innerHTML=myArray;
+        document.getElementById("demo3").innerHTML="Name ="+myObj.name+"\n Age="+myObj.age+"place="+myObj.place+"Contactno :"+myObj["contactNo"];
+
+
+
+
+    </script>
+</body>
+</html>

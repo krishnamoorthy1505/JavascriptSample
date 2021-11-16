@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<html>
+    <body>
+        <div ng-app="timeapp" ng-controller="timeCtrl">
+            <h6>hi</h6>
+            <h1>{{myHeader}}</h1>
+        </div>
+        <script>
+            var timeApp=angular.module("timeapp",[]);
+            timeApp.controller("timeCtrl",function($scope,$timeout){
+                $scope.myHeader="Hi krishnamoorthy";
+                $timeout(function(){
+                    $scope.myHeader="Hi Padma";
+                },2000);
+            });
+        </script>
+    </body>
+</html>

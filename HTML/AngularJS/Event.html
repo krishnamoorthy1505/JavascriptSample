@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+    <div ng-app="eveApp" ng-controller="eventController">
+        <h1 ng-click="count=count+1">Click!</h1>
+        <h2>{{count}}</h2>
+    </div>
+    <script>
+        var app=angular.module("eveApp",[]);
+        app.controller("eventController",function($scope) {
+            $scope.count=0;
+        });
+    </script>
+</body>

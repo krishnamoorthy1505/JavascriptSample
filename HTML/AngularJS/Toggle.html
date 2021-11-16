@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+    <div ng-app="eveApp" ng-controller="eventController">
+        <h1 ng-click="myFun()">Click!</h1>
+        <div ng-show="showMe">
+            <h1>menu</h1>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+    </div>
+    <script>
+        var app=angular.module("eveApp",[]);
+        app.controller("eventController",function($scope) {
+            $scope.showMe=false;
+            $scope.myFun=function(){
+                $scope.showMe=!$scope.showMe;
+            }
+        });
+    </script>
+</body>

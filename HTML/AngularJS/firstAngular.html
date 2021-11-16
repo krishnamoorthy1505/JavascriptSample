@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<!--<div ng-app="" ng-init="qua=5;pri=10 "}>
+  <p>Name : <input type="text" ng-model="name"></p>
+  <h1>Hello {{name}}</h1>
+  <p class="display1">{{ qua * pri}}</p>
+  <p class="display 4">{{person.firstName}}</p>
+</div> -->
+Angular JS Directives
+<div ng-app="" ng-init="num=[10,20,30];person=[{name:'krishna',country:'india'},
+{name:'gopi' ,country:'india'}]">
+  <ul> <li ng-repeat="x in num">
+    {{x}}
+  </li>
+  </ul>
+  <ul>
+    <li ng-repeat='y in person'>
+      {{y.name + " "+y.country}}
+    </li>
+
+    
+  </ul>
+
+
+</div>
+
+</body>
+</html>

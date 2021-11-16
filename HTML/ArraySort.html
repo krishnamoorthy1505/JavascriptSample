@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo">Array before sorting</p>
+    <p id="demo1">Array with numbers sorting</p>
+    <button onclick="myfunction1()">click</button>
+    <script>
+        const numbers=[10,50,30,80];
+        document.getElementById("demo").innerHTML=numbers;
+        numbers.sort(function(a,b){
+            return (a-b);
+        });
+        function myfunction1(){
+            numbers.sort(function(a,b){return b-a});
+            document.getElementById("demo2").innerHTML=numbers;
+        }
+        
+        document.getElementById("demo1").innerHTML=numbers;
+        
+
+    </script>
+    <p id="demo2"> reverse number</p>
+</body>
+</html>

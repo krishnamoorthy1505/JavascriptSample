@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+    <div ng-app="" >
+        <form name="myForm">
+            <input name="text" ng-model="test" required>
+            <input name="email" ng-model="test1" type="email">
+
+
+        </form>
+        <h1 > {{myForm.text.$valid}}</h1>
+        Email :<h1 > {{myForm.email.$valid}}</h1>
+
+    </div>
+

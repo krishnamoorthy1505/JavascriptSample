@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<body>
+    <div ng-app="myApp" ng-controller="myctrl">
+        <h1>{{myWelcome}}</h1>
+    </div><script>
+        var app=angular.module("myApp",[]).controller("myctrl",function($scope,$http){
+            $http.get("customers.php").then(function(response)
+            {
+               $scope.myWelcome= response.data;
+            });
+           //$scope.myUrl=$location.absUrl();
+        });
+    </script>
+
+    
+</body>

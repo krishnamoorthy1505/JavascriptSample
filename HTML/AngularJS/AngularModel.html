@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+    <form ng-app="myapp" ng-controller="mycontroller" name="myform">
+       Name : <input type="text" ng-model="name"/>
+       <p ng-bind='name'></p><br>
+       email  :<input type="email" name="myemail" ng-model="text">
+       <span ng-show="myform.myemail.$error.email">Not a valid email</span>
+
+    </form>
+    <script>
+       var app= angular.module("myapp",[]);
+       app.controller("mycontroller",function($scope){
+            $scope.name='krishnamoorthy';
+       })
+    </script>
+</body>
+</html>

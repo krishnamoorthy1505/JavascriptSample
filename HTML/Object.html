@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h6>Object Example</h6>
+    <p id="demo">Object Definition </p>
+    <p></p>
+    <p id="obj"></p>
+    <script>
+        let text="hi krishna moorthy \"how are you \" ";
+        const person = {
+            firstName : "krishna",
+            lastName  : "moorthy",
+            fullName : function() {
+                return this.firstName + 
+                " " + this.lastName;
+            } 
+        };
+        document.write(person.firstName);
+        document.getElementById("obj").innerHTML = person.fullName();
+        //document.getElementById("demo").innerHTML=person.fullName();
+    </script>
+</body>
+</html>
