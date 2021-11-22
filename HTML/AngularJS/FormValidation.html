@@ -1,16 +1,22 @@
-<!DOCTYPE html>
+<!DOCTYPE html 5>
 <html lang="en-US">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
+
+</script>
+
 <body>
-    <div ng-app="" >
+    <div ng-app="" class="" >
         <form name="myForm">
             <input name="text" ng-model="test" required>
+            <span class="txt-danger" ng-show="myForm.text.$touched && myForm.text.$invalid">Name is Required</span><br>
             <input name="email" ng-model="test1" type="email">
 
 
         </form>
-        <h1 > {{myForm.text.$valid}}</h1>
+<!--         <h1 > {{myForm.text.$valid}}</h1>
         Email :<h1 > {{myForm.email.$valid}}</h1>
 
-    </div>
+ -->    </div>
 

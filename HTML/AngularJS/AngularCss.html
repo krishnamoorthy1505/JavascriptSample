@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+    <div ng-app="eveApp" ng-controller="eventController">
+        <form name="myform">
+        Name :<input type="text" name="textVal" ng-model="textmod" required>
+        <span style="color:red" ng-show="myform.textVal.$dirty && myform.textVal.$invalid">
+        <span ng-show="myform.textVal.$error.required">Name Is Required </span>
+    </span>
+    <input type="email" 
+
+
+    </form>
+    </div>
+    <script>
+        var app=angular.module("eveApp",[]);
+        app.controller("eventController",function($scope) {
+            $scope.textmod='krishna';
+        });
+    </script>
+</body>
