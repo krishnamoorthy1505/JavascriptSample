@@ -2,17 +2,45 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+import reportWebVitals from './reportWebVitals';
+import reactDom from 'react-dom';
+import Employee  from './Employee';
+import Employee1 from './Employee1'
+import Clock from './Clock'
+import Clock1 from './Clock'
+import Form from './EventHandling'
+import LoginEvent from './LoginEvent'
+import ReactLifeCycle from './ReactLife';
+import AddDeleteHook from './AddDeleteHook';
+
+/* ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
-//const myfirstelement = <h1>Hello React!</h1>
+ */
 
-//ReactDOM.render(myfirstelement, document.getElementById('root'));
+
+
+
+//Event
+
+//ReactDOM.render(<LoginEvent/>,document.getElementById('root'))
+
+ReactDOM.render(<AddDeleteHook/>,document.getElementById('root'))
+
+//reactDom.render(<Form/>,document.getElementById('root'));
+//ReactDOM.render(<Clock/>,document.getElementById('root'));
+//Nested Component
+//ReactDOM.render(<Employee name='gopi' empid={101}/>,document.getElementById('root'));
+
+//React Props
+//ReactDOM.render(<Employee1 name='gopi' empid={105}/>,document.getElementById('root'));
+ //const myfirstelement = <h1>Hello React!</h1>
+
+//ReactDOM.render(<app/> , document.getElementById('root'));
 
 
 
