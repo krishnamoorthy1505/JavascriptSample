@@ -3,7 +3,7 @@ import AddDelete from "./AddDeleteClass"
 function HookCount(){
     const state= useState(345)
     console.log(state)
-    npm
+    
     //Unstructered Array
     let [R,E,D]=[10,20,20]
     console.log(D)

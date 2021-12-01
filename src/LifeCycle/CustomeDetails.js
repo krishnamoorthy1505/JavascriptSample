@@ -1,5 +1,6 @@
-import react from "react";
+//import react from "react";
 import React from "react";
+import UserMain from "./UserMain"
 class CustomerDetails extends React.Component{
     constructor(props){
             super()
@@ -30,6 +31,9 @@ class CustomerDetails extends React.Component{
                 Name :{this.state.person.name}
                 Mail ID : {this.state.person.mail}
                 <button onClick={() => this.clear()}>Clear</button>
+                <br></br>
+                <hr></hr>
+                <UserMain/>
 
             </div>
         )

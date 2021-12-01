@@ -12,10 +12,12 @@ class CountLifeCycle extends React.Component{
         console.log("Application Mount")
 
     }
-    componentWillUnmount(){
-
+    componentDidUpdate(prevProps,prevState){
+        console.log("App Updated");
+        console.log("Prev Prop",prevProps)
+        console.log("PrevStat",prevState)
     }
-    componentDidUpdate(){
+    componentWillUnmount(){
 
     }
     increment(){

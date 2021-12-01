@@ -13,6 +13,12 @@ import Form from './EventHandling'
 import LoginEvent from './LoginEvent'
 import ReactLifeCycle from './ReactLife';
 import AddDeleteHook from './AddDeleteHook';
+import Toggle from "./Toggle"
+import ClassProperty from './LifeCycle/ClassProperty'
+import ClassProperty1 from './LifeCycle/ClassProperty'
+import ClassState from './LifeCycle/ClassState';
+import ReactForm from './form/MyForm'
+
 
 /* ReactDOM.render(
   <React.StrictMode>
@@ -29,7 +35,21 @@ import AddDeleteHook from './AddDeleteHook';
 
 //ReactDOM.render(<LoginEvent/>,document.getElementById('root'))
 
-ReactDOM.render(<AddDeleteHook/>,document.getElementById('root'))
+//LifeCycle
+//ReactDOM.render(<AddDeleteHook/>,document.getElementById('root'))
+
+//Parent to Child Properties Change  Component LifeCycle Github
+//reactDom.render(<ClassProperty1/>,document.getElementById('root'))
+
+//React Forms
+reactDom.render(<ReactForm/>,document.getElementById('root'))
+
+
+
+
+
+
+//ReactDOM.render(<Toggle />,document.getElementById('root'))
 
 //reactDom.render(<Form/>,document.getElementById('root'));
 //ReactDOM.render(<Clock/>,document.getElementById('root'));
