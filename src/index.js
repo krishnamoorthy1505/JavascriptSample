@@ -18,6 +18,9 @@ import ClassProperty from './LifeCycle/ClassProperty'
 import ClassProperty1 from './LifeCycle/ClassProperty'
 import ClassState from './LifeCycle/ClassState';
 import ReactForm from './form/MyForm'
+import { ListGroup } from 'react-bootstrap';
+import List from "./form/List"
+import ListKey from './form/ListKey';
 
 
 /* ReactDOM.render(
@@ -42,7 +45,10 @@ import ReactForm from './form/MyForm'
 //reactDom.render(<ClassProperty1/>,document.getElementById('root'))
 
 //React Forms
-reactDom.render(<ReactForm/>,document.getElementById('root'))
+//reactDom.render(<ReactForm/>,document.getElementById('root'))
+
+reactDom.render(<List/>,document.getElementById('root'))
+
 
 
 
