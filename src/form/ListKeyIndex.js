@@ -18,4 +18,4 @@ export default function IndexKey() {
 
     
 
-const myList = [1000,2000,40000];
+const myList = [1000,2000,40000,5000];
