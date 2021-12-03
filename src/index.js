@@ -21,6 +21,8 @@ import ReactForm from './form/MyForm'
 import { ListGroup } from 'react-bootstrap';
 import List from "./form/List"
 import ListKey from './form/ListKey';
+import Greeting from './reactDoc/greeting'
+import LoginController from './reactDoc/LoginComponent'
 
 
 /* ReactDOM.render(
@@ -47,7 +49,13 @@ import ListKey from './form/ListKey';
 //React Forms
 //reactDom.render(<ReactForm/>,document.getElementById('root'))
 
-reactDom.render(<List/>,document.getElementById('root'))
+//reactDom.render(<List/>,document.getElementById('root'))
+
+reactDom.render(<Greeting isLogged='false'/>,document.getElementById('root'))
+reactDom.render(<LoginController/>,document.getElementById('root'))
+
+
+
 
 
 
