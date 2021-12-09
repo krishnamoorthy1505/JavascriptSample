@@ -23,6 +23,9 @@ import List from "./form/List"
 import ListKey from './form/ListKey';
 import Greeting from './reactDoc/greeting'
 import LoginController from './reactDoc/LoginComponent'
+import RouterJS from './Router/RoutesJS'
+import FormText from './form/FormText'
+
 
 
 /* ReactDOM.render(
@@ -48,11 +51,19 @@ import LoginController from './reactDoc/LoginComponent'
 
 //React Forms
 //reactDom.render(<ReactForm/>,document.getElementById('root'))
+reactDom.render(<FormText/>,document.getElementById('root'))
+//reactDom.render(<RouterJS/>,document.getElementById('root'))
+
+
+
 
 //reactDom.render(<List/>,document.getElementById('root'))
 
-reactDom.render(<Greeting isLogged='false'/>,document.getElementById('root'))
-reactDom.render(<LoginController/>,document.getElementById('root'))
+//reactDom.render(<Greeting isLogged='false'/>,document.getElementById('root'))
+
+
+//reAct Doc 
+//reactDom.render(<LoginController/>,document.getElementById('root'))
 
 
 

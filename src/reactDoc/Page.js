@@ -8,7 +8,8 @@ export default class Page extends React.Component{
     }
     handlePage = () => {
         this.setState(
-            state => ({isShow:!state.isShow})
+            
+            prevState => ({isShow:!prevState.isShow})
         )};
     render(){
         return(

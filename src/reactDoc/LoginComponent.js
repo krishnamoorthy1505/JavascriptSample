@@ -3,7 +3,7 @@ import Greeting from "./greeting";
 import Page from "./Page";
 function Login(props){
     return(
-        <button onClick={props.onClick}>Login</button>
+        <button onClick={props.onClick}>Logout</button>
     )
 }
 function Logout(props){
