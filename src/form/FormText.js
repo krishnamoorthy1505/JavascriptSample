@@ -68,7 +68,7 @@ export default class FormText extends React.Component{
                 <br/>
                <input type="submit" value="submit"/>
             </form>
-            
+
         )
     }
 }
