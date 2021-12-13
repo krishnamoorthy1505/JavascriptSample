@@ -25,6 +25,7 @@ import Greeting from './reactDoc/greeting'
 import LoginController from './reactDoc/LoginComponent'
 import RouterJS from './Router/RoutesJS'
 import FormText from './form/FormText'
+import AppLifeStateUp from './LifeState/AppLiftStateUp'
 
 
 
@@ -51,8 +52,13 @@ import FormText from './form/FormText'
 
 //React Forms
 //reactDom.render(<ReactForm/>,document.getElementById('root'))
-reactDom.render(<FormText/>,document.getElementById('root'))
+//reactDom.render(<FormText/>,document.getElementById('root'))
 //reactDom.render(<RouterJS/>,document.getElementById('root'))
+
+ReactDOM.render(<AppLifeStateUp/>,document.getElementById('root'))
+
+
+
 
 
 
