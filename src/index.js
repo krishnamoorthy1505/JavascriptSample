@@ -26,7 +26,16 @@ import LoginController from './reactDoc/LoginComponent'
 import RouterJS from './Router/RoutesJS'
 import FormText from './form/FormText'
 import AppLifeStateUp from './LifeState/AppLiftStateUp'
-
+import HookEffect from './Hook/HookEffect'
+import ReduxApp from './Redux/ReduxApp'
+import ReactSimple from './Redux/ReactSimple'
+import SignupForm from './formik/SignupForm'
+import RegistrationForm from './formik/RegisterForm'
+import RegistrationFormYUP from './formik/RegisterationFormYUP'
+import RegistrationFormField from './formik/FormikFieldProperties'
+import FormikTag from './formik/FormikTag'
+import FormikField from './formik/FormikField'
+import FormikUseField from './formik/FormikUseField'
 
 
 /* ReactDOM.render(
@@ -55,10 +64,17 @@ import AppLifeStateUp from './LifeState/AppLiftStateUp'
 //reactDom.render(<FormText/>,document.getElementById('root'))
 //reactDom.render(<RouterJS/>,document.getElementById('root'))
 
-ReactDOM.render(<AppLifeStateUp/>,document.getElementById('root'))
+//ReactDOM.render(<AppLifeStateUp/>,document.getElementById('root'))
 
 
 
+
+//Hook 
+
+//ReactDOM.render(<HookEffect/>,document.getElementById('root'))
+
+
+//ReactDOM.render(<ReduxApp/>,document.getElementById('root'))
 
 
 
@@ -70,6 +86,29 @@ ReactDOM.render(<AppLifeStateUp/>,document.getElementById('root'))
 
 //reAct Doc 
 //reactDom.render(<LoginController/>,document.getElementById('root'))
+
+//Formik
+//ReactDOM.render(<SignupForm/>,document.getElementById('root'))
+
+//ReactDOM.render(<RegistrationForm/>,document.getElementById('root'))
+
+//ReactDOM.render(<RegistrationFormYUP/>,document.getElementById('root'))
+//ReactDOM.render(<RegistrationFormField/>,document.getElementById('root'))
+
+//ReactDOM.render(<FormikTag/>,document.getElementById('root'))
+//ReactDOM.render(<FormikField/>,document.getElementById('root'))
+
+ReactDOM.render(<FormikUseField/>,document.getElementById('root'))
+
+
+
+
+
+
+
+
+
+
 
 
 
