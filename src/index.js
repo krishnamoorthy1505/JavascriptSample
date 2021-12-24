@@ -36,6 +36,7 @@ import RegistrationFormField from './formik/FormikFieldProperties'
 import FormikTag from './formik/FormikTag'
 import FormikField from './formik/FormikField'
 import FormikUseField from './formik/FormikUseField'
+import App1 from './formik/App'
 
 
 /* ReactDOM.render(
@@ -73,8 +74,8 @@ import FormikUseField from './formik/FormikUseField'
 
 //ReactDOM.render(<HookEffect/>,document.getElementById('root'))
 
-
-//ReactDOM.render(<ReduxApp/>,document.getElementById('root'))
+//Redux
+ReactDOM.render(<ReduxApp/>,document.getElementById('root'))
 
 
 
@@ -98,9 +99,12 @@ import FormikUseField from './formik/FormikUseField'
 //ReactDOM.render(<FormikTag/>,document.getElementById('root'))
 //ReactDOM.render(<FormikField/>,document.getElementById('root'))
 
-ReactDOM.render(<FormikUseField/>,document.getElementById('root'))
+//ReactDOM.render(<FormikUseField/>,document.getElementById('root'))
+/* ReactDOM.render(
+  <React.StrictMode><App1/></React.StrictMode>,
+  document.getElementById('root'));
 
-
+ */
 
 
 

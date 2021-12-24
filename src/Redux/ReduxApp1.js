@@ -1,9 +1,7 @@
 import { render } from "@testing-library/react";
 import React,{Component} from 'react'
 import store,{COUNTER_INCREMENT,COUNTER_DECREMENT} from './store'
-import {Provider} from 'react-redux'
-import Hello from "./Hello";
-
+//import {Provoider} from 'react-redux'
 
 export default  class ReactApp extends React.Component{
     constructor(props){
@@ -36,9 +34,9 @@ export default  class ReactApp extends React.Component{
 
     render(){
         return(
-            <Provider store={store}>
+            <provoider store={store}>
             <div>
-                <Hello name={this.state.name}  />
+                Hello <h4>{this.state.name}</h4>
                 <button onClick={this.increment}>Increment</button>
                 <button onClick={this.decrement}>Decrement</button>
                 <button onClick={this.push}>Push</button>
@@ -47,7 +45,7 @@ export default  class ReactApp extends React.Component{
 
                 
             </div>
-            </Provider>
+            </provoider>
         )
     }
 }
