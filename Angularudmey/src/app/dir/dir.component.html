@@ -1,0 +1,9 @@
+<p>dir works!</p>
+<!-- <button class="btn btn-primary" (click)="showSecret = !showSecret">Display Details</button> -->
+<button class="btn btn-primary" (click)="onToggleDetails()">Display Details</button> 
+
+<p *ngIf="showSecret">password : krishna</p>
+<div *ngFor="let logItem of log"
+[ngStyle]="{backgroundColor: logItem >= 5 ? 'blue':'transperent' }"
+[ngClass]="{'white-text' : logItem >=5}"
+>{{logItem}}</div>

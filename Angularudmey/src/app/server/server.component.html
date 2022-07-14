@@ -1,0 +1,17 @@
+
+<div class="container">
+    <p [ngStyle]="{backgroundColor: getColor()}">{{ 'Server' }} with ID {{serverId}} is {{getServerStatus()}}</p>
+    <!-- <p >{{ 'Server' }} with ID {{serverId}} is {{getServerStatus()}}</p>
+    <p>{{this.serverStatus}}</p> -->
+    <label>UserName  :</label>
+   
+    <input type="text" class="form-control"
+    [(ngModel)]= "username" >
+    
+    <p>{{username}}</p>
+    <button class="btn btn-primary" 
+        [disabled]="username === ''"
+        (click)="username=''">Reset User
+    </button>
+   
+</div>
