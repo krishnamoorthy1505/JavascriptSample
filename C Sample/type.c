@@ -15,6 +15,8 @@ int main() {
 
     printf("d=%d\n",f);
     printf("f=%f\n",f);
+    printf("d=%d\n",f);
+    printf("f=%f\n",f);
 
     
     return 0;
