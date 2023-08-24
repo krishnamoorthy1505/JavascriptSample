@@ -6,11 +6,10 @@ public class SumofDigits{
         int n = sc.nextInt();
         int sum =0;
         int ld = 0;
-        // while(n>0){
-        //     ld=n%10;
-        //     sum+=ld;
-        //     n=n/10;
-        // }
+        if(n<0){
+            n=-n;
+            System.out.println(n);
+        }
         for(;n>0;){
             ld=n%10;
             sum+=ld;
