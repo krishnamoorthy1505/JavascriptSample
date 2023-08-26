@@ -11,17 +11,24 @@ public class PositionofElement {
             A[i]=sc.nextInt();
         }
         int m=sc.nextInt();
-          int f=0;
+          int pos=-1;
         for(int i=0;i<n;i++){
-            if(A[i]==m){
-               f=i; 
-            }
-            else if(A[i]!=m){
-           // else{
-                f=-1;
-            }
+        //     if(A[i]==m){
+        //        f=i; 
+        //     }
+        //     else if(A[i]!=m){
+        //    // else{
+        //         f=-1;
+        //  
+        if(A[i] == m){
+            pos=i;
+            break;
+
         }
-        System.out.println(f);
+    
+    }
+        System.out.println(pos);
     }
     
 }
+ 
