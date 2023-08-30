@@ -1,0 +1,413 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AverageRainfall",
+            "request": "launch",
+            "mainClass": "AverageRainfall",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "BasicStairPattern",
+            "request": "launch",
+            "mainClass": "BasicStairPattern",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "CountElement",
+            "request": "launch",
+            "mainClass": "CountElement",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "CountofElementGTB",
+            "request": "launch",
+            "mainClass": "CountofElementGTB",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "DataType",
+            "request": "launch",
+            "mainClass": "DataType",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "EvenOddElements",
+            "request": "launch",
+            "mainClass": "EvenOddElements",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "EvennumForLoop",
+            "request": "launch",
+            "mainClass": "EvennumForLoop",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "FirstArray",
+            "request": "launch",
+            "mainClass": "FirstArray",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "FrequencyArray",
+            "request": "launch",
+            "mainClass": "FrequencyArray",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "InsertElement",
+            "request": "launch",
+            "mainClass": "InsertElement",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "InsertElement1",
+            "request": "launch",
+            "mainClass": "InsertElement1",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "InsertElement2",
+            "request": "launch",
+            "mainClass": "InsertElement2",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "InvertedNumericPyramid",
+            "request": "launch",
+            "mainClass": "InvertedNumericPyramid",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "LastDigitTtoTnumber",
+            "request": "launch",
+            "mainClass": "LastDigitTtoTnumber",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "LeadingSpacePyramid",
+            "request": "launch",
+            "mainClass": "LeadingSpacePyramid",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "LeadingSpacesInvertedPyramid",
+            "request": "launch",
+            "mainClass": "LeadingSpacesInvertedPyramid",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "MaxandMin",
+            "request": "launch",
+            "mainClass": "MaxandMin",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "MaxofArray",
+            "request": "launch",
+            "mainClass": "MaxofArray",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "NegativeNumber",
+            "request": "launch",
+            "mainClass": "NegativeNumber",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "NumericStairPattern",
+            "request": "launch",
+            "mainClass": "NumericStairPattern",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "OddNumberHalfPyramid",
+            "request": "launch",
+            "mainClass": "OddNumberHalfPyramid",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "Operators",
+            "request": "launch",
+            "mainClass": "Operators",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "Pattern1",
+            "request": "launch",
+            "mainClass": "Pattern1",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "PatternMulti",
+            "request": "launch",
+            "mainClass": "PatternMulti",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "PatternNumbers",
+            "request": "launch",
+            "mainClass": "PatternNumbers",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "PatternNumbers1",
+            "request": "launch",
+            "mainClass": "PatternNumbers1",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "PatternSpace",
+            "request": "launch",
+            "mainClass": "PatternSpace",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "PatternSpaceEX",
+            "request": "launch",
+            "mainClass": "PatternSpaceEX",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "Polindromic",
+            "request": "launch",
+            "mainClass": "Polindromic",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "PositionofElement",
+            "request": "launch",
+            "mainClass": "PositionofElement",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "PostandPreINCREMENT",
+            "request": "launch",
+            "mainClass": "PostandPreINCREMENT",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "PrintSumofDigits",
+            "request": "launch",
+            "mainClass": "PrintSumofDigits",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "Reverse",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "ReverseElement",
+            "request": "launch",
+            "mainClass": "ReverseElement",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "ReverseNumbers",
+            "request": "launch",
+            "mainClass": "ReverseNumbers",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "ReverseStaircase",
+            "request": "launch",
+            "mainClass": "ReverseStaircase",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "ReverseStarePattern2",
+            "request": "launch",
+            "mainClass": "ReverseStarePattern2",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "ReviceStarCombinePattern",
+            "request": "launch",
+            "mainClass": "ReviceStarCombinePattern",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "StaircasePattern",
+            "request": "launch",
+            "mainClass": "StaircasePattern",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "StarPattern2",
+            "request": "launch",
+            "mainClass": "StarPattern2",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "SumofArray",
+            "request": "launch",
+            "mainClass": "SumofArray",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "SumofDigits",
+            "request": "launch",
+            "mainClass": "SumofDigits",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "TemperatureDifference",
+            "request": "launch",
+            "mainClass": "TemperatureDifference",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "TwoLineStarPattern",
+            "request": "launch",
+            "mainClass": "TwoLineStarPattern",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "Even",
+            "request": "launch",
+            "mainClass": "loop.Even",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "Even1",
+            "request": "launch",
+            "mainClass": "loop.Even1",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "EvenNumber",
+            "request": "launch",
+            "mainClass": "loop.EvenNumber",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "EvenNumberReverse",
+            "request": "launch",
+            "mainClass": "loop.EvenNumberReverse",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "Multi2",
+            "request": "launch",
+            "mainClass": "loop.Multi2",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "MultiplicationN",
+            "request": "launch",
+            "mainClass": "loop.MultiplicationN",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "Multiply4",
+            "request": "launch",
+            "mainClass": "loop.Multiply4",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "NaturalNumber",
+            "request": "launch",
+            "mainClass": "loop.NaturalNumber",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "NaturalnumberReverse",
+            "request": "launch",
+            "mainClass": "loop.NaturalnumberReverse",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "OddNumber",
+            "request": "launch",
+            "mainClass": "loop.OddNumber",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "PrintLastDigit",
+            "request": "launch",
+            "mainClass": "loop.PrintLastDigit",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "Sample",
+            "request": "launch",
+            "mainClass": "loop.Sample",
+            "projectName": "JavaProject_ad04bb43"
+        },
+        {
+            "type": "java",
+            "name": "SumOddNumbers",
+            "request": "launch",
+            "mainClass": "loop.SumOddNumbers",
+            "projectName": "JavaProject_ad04bb43"
+        }
+    ]
+}
