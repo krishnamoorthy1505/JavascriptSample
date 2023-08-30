@@ -13,7 +13,7 @@ public class LeadingSpacePyramid {
             {
                 System.out.print(" ");
             }
-            for(int j=1;j<=i-1+1;j++){
+            for(int j=1;j<=i;j++){  //i-1+1
                 System.out.print("*");
             }
             System.out.println();

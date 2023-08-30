@@ -5,13 +5,13 @@ public class SumofDigits{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int sum =0;
-        int ld = 0;
+        //int ld = 0;
         if(n<0){
             n=-n;
             System.out.println(n);
         }
         for(;n>0;){
-            ld=n%10;
+            int ld=n%10;
             sum+=ld;
             n=n/10;
         }
