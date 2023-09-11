@@ -1,8 +1,8 @@
-
 import java.util.ArrayList;
+import java.util.Collections;
 
-public class ListofPrimeNumber {
-        static boolean isPrime(int val){
+public class ListPrimeIncreaingOrder {
+            static boolean isPrime(int val){
             int count=0;
             boolean isFlag=false;
             for(int i=1;i<=val;i++){
@@ -40,6 +40,7 @@ public class ListofPrimeNumber {
             //     }
 
             }
+            Collections.sort(res);
             return res;
         }
         public static void main(String[] args) {
@@ -56,5 +57,6 @@ public class ListofPrimeNumber {
 
 
     }
+
 
 }
