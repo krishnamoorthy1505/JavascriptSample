@@ -26,7 +26,7 @@ public class WavePointReverseColumnwise {
             }
             System.out.println();
         }
-        for(int c=0; c < m;c++){
+        for(int c=0; c < m;c++){0
             for(int r=0;r < n ;r++){
                 if(c%2 == 1){
                     System.out.print(mat[n-1-r][c]+" ");
