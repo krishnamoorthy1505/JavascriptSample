@@ -32,6 +32,7 @@ public class WavePrintColumn2 {
                 if((col%2) == 1)
                 {
                     System.out.print(mat[n - 1 - row][col]);
+                   // System.out.print(" n = ");
                 }
                 else
                 {
