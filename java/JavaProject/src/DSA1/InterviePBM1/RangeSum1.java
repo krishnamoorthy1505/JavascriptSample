@@ -113,6 +113,12 @@ public class RangeSum1 {
     public static void main(String[] args) {
         int A[] = {1,2,1,4};
         int B[][] = {{2,3,2},{1,4,5},{4,4,1}};
+        System.out.print("[");
+        for(int i=0;i<A.length;i++){
+            System.out.print(A[i]+" ");
+        }
+        System.out.println("]");
+
         int[] res = solve(A,B);
         for(int i=0;i<res.length;i++){
             System.out.print(res[i]+" ");
