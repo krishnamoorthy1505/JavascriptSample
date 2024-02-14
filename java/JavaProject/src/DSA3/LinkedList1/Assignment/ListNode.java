@@ -1,4 +1,4 @@
-package LinkedList1;
+package LinkedList1.Assignment;
 
 public class ListNode {
     int val;

@@ -1,3 +1,4 @@
+package LinkedList1.Additional;
 //package LinkedList1;
 /* Q1. Remove Duplicates from Sorted List
 Solved
@@ -51,7 +52,7 @@ Explanation 1:
  Each element appear only once in 1->2.
  */
 
- 
+
 public class RemoveDuplicateSortedList {
 
     static void printLL(ListNode head){
